@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -r $(ls |grep "[^A-Z]") /tmp/u
+cp -r $(ls |grep "^[A-Z]") /tmp/u
