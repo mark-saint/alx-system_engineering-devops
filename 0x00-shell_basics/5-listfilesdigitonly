@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ld -- [[:digit:]]*
+ls -la |grep [0-9]
