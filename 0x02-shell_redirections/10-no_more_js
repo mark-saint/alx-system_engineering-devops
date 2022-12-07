@@ -1,2 +1,2 @@
 #!/bin/bash
-rm $(ls -d *.js)
+rm $(ls -p |grep -v / |grep *.js)
