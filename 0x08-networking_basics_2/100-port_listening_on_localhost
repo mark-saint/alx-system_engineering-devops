@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#klfdslkd
+nc -l 98
