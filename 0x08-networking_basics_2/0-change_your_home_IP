@@ -2,5 +2,5 @@
 #ljfsda
 cp /etc/hosts ~/
 sed -i 's/127.0.0.1/127.0.0.2/g' ~/hosts
-sed -i 's/157.240.11.35/8.8.8.8/g' ~/hosts
+sed -i 's/facebook.com 157.240.11.35/facebook.com 8.8.8.8/g' ~/hosts
 cp -f ~/hosts /etc/hosts
