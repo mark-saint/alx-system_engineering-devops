@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#sdaflj
+ifconfig | grep 'inet '| cut -d: -f2 | awk '{print $2}'
