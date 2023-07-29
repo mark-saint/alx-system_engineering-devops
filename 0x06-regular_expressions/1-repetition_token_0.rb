@@ -1,2 +1,2 @@
 #!/usr/usr/env ruby
-puts ARGV[0].scan(/[a-b]+/).join
+puts ARGV[0].scan(/\w[a-b]+/).join
