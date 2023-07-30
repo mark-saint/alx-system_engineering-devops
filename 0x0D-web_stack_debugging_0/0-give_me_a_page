@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 echo "ServerName localhost" >> /etc/apache2.conf
-systemctl start apache2
+service apache2 start
